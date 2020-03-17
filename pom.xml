@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.twinterf</groupId>
-	<artifactId>jwt-login-sample</artifactId>
+	<artifactId>notif-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>notif-api</name>
 	<description>Backend for notif application</description>
