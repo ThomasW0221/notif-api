@@ -1,12 +1,17 @@
-package io.twinterf.jwtloginsample.auth.pojos;
+package io.twinterf.notif.auth.entities;
 
-public class LoginRequest {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+
+    @Id
     private String username;
     private String password;
+    private String email;
 
-    public LoginRequest(String username, String password) {
-        this.username = username;
-        this.password = password;
+    public User() {
     }
 
     public String getUsername() {
@@ -25,10 +30,20 @@ public class LoginRequest {
         this.password = password;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
-        return "LoginRequest{" +
+        return "User{" +
                 "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
                 '}';
     }
 }

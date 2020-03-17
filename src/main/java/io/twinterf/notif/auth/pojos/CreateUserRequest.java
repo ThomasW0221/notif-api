@@ -1,4 +1,4 @@
-package io.twinterf.jwtloginsample.auth.pojos;
+package io.twinterf.notif.auth.pojos;
 
 public class CreateUserRequest {
     private String username;

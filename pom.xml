@@ -11,8 +11,8 @@
 	<groupId>io.twinterf</groupId>
 	<artifactId>jwt-login-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jwt-login-sample</name>
-	<description>Demo project for Spring Boot</description>
+	<name>notif-api</name>
+	<description>Backend for notif application</description>
 
 	<properties>
 		<java.version>11</java.version>

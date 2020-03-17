@@ -1,6 +1,6 @@
-package io.twinterf.jwtloginsample.reminders.repositories;
+package io.twinterf.notif.reminders.repositories;
 
-import io.twinterf.jwtloginsample.reminders.entities.BirthdayReminder;
+import io.twinterf.notif.reminders.entities.BirthdayReminder;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

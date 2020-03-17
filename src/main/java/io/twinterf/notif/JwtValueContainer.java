@@ -1,4 +1,4 @@
-package io.twinterf.jwtloginsample;
+package io.twinterf.notif;
 
 public class JwtValueContainer {
     private final String signatureValue;

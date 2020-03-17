@@ -1,4 +1,4 @@
-package io.twinterf.jwtloginsample.reminders.entities;
+package io.twinterf.notif.reminders.entities;
 
 import javax.persistence.*;
 import java.util.Date;

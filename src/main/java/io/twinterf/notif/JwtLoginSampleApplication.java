@@ -1,4 +1,4 @@
-package io.twinterf.jwtloginsample;
+package io.twinterf.notif;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

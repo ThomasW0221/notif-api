@@ -1,18 +1,17 @@
-package io.twinterf.jwtloginsample.auth.controllers;
+package io.twinterf.notif.auth.controllers;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import io.twinterf.jwtloginsample.JwtValueContainer;
-import io.twinterf.jwtloginsample.auth.entities.User;
-import io.twinterf.jwtloginsample.auth.pojos.CreateUserRequest;
-import io.twinterf.jwtloginsample.auth.pojos.LoginRequest;
-import io.twinterf.jwtloginsample.auth.pojos.TokenResponse;
-import io.twinterf.jwtloginsample.auth.repositories.UserRepository;
+import io.twinterf.notif.JwtValueContainer;
+import io.twinterf.notif.auth.entities.User;
+import io.twinterf.notif.auth.pojos.CreateUserRequest;
+import io.twinterf.notif.auth.pojos.LoginRequest;
+import io.twinterf.notif.auth.pojos.TokenResponse;
+import io.twinterf.notif.auth.repositories.UserRepository;
 import org.mindrot.jbcrypt.BCrypt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.oauth2.resource.OAuth2ResourceServerProperties;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
